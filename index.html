@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Projeto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="intro py-3 bg-warning text-center">
+            <div class="container">
+                <h2 class="text-light display-3 my-4">Quiz</h2>
+            </div>
+        </div>
+        
+            <div data-js="result"  class="result py-4 d-none bg-light text-center">
+                <div class="container-lead"> 
+                    <p>Você acertou 
+                        <span data-js="valorFinal" class="text-warning display-4 p-3">0</span>
+                        % do Quiz</p>
+                </div>
+            </div>
+            <div class="quiz py-4 bg-dark">
+                <div class="container text-center ">
+                    <h2 class="my-5 text-white">Personagens ficticios</h2>
+                </div>
+                <form data-js="data-form" class="quiz-form text-light container mx-auto">
+                    <div class="my-5">
+                            <p class="lead font-weight-normal ">Qual o nome do criados dos Frankenstein :</p>
+                        <div class="form-check my-2 text-white-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion1" value="A" checked>
+                            Batman
+                        </label>
+                    </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion1" value="B">
+                            Macaco loco
+                        </label>
+                    </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion1" value="C">
+                            Dr. Frankenstein
+                        </label>
+                    </div>
+                    </div>
+                
+                    <div class="my-5">
+                            <p class="lead font-weight-normal">Para onde Alice viaja quando embarca em sua aventura : </p>
+                        <div class="form-check my-2 text-white-50">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion2" value="A" checked>
+                                Para Narnia onde conhece Aslam
+                            </label>
+                        </div>
+
+                    <div class="form-check my-2 text-white-50">
+                        <label class="form-check-label">
+                            <input type="radio" name="inputQuestion2" value="B">
+                            Para Terabítia
+                        </label>
+                    </div>
+
+                        <div class="form-check py-2 text-white-50">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion2" value="C">
+                                Para o Pais das Maravilhas
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="my-5">
+                        <p>Que acontecimento mudou a vida de Bruce Wayne</p>
+                        <div class="form-check py-2 text-white-50">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion3" value="A" checked>
+                                Após a perca de um figura paterna
+                            </label>
+                        </div>
+                        <div class="form-check py-2 text-white-50">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion3" value="B">
+                                Um assalto em que sua familia morre
+                            </label>
+                        </div>
+                        <div class="form-check py-2 text-white-50">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion3" value="C">
+                                Uma Viagem de Kryptor para a Terra
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Se alistou no exercito varias vezes, antes de se tornar um Heroi</p>
+                        <div class="form-check py-2 text-white-50">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion4" value="A" checked>
+                                Virgil Ovid Hawkins
+                            </label>
+                        </div>
+                        <div class="form-check py-2 text-white-50">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion4" value="B">
+                                Sylvester Stallone
+                            </label>
+                        </div>
+                        <div class="form-check py-2 text-white-50">
+                            <label class="form-check-label">
+                                <input type="radio" name="inputQuestion4" value="C">
+                                Steve Rogers
+                            </label>
+                        </div>
+                    </div>
+                
+                    <div class="text-center">
+                        <button class="btn bg-warning text-light">Enviar</button>
+                    </div>
+            </form>
+        </div>
+            
+        <footer>
+
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
